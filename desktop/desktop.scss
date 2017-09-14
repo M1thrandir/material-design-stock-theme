@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://unpkg.com/material-components-web@0.8.0/dist/material-components-web.min.css");
+
+:root {
+  --mdc-theme-primary: #3f51b5;
+  --mdc-theme-accent: #ff4081;
+  --mdc-theme-background: #fff;
+  --mdc-theme-text-primary-on-primary: #fff;
+  --mdc-theme-text-secondary-on-primary: hsla(0, 0%, 100%, .7);
+  --mdc-theme-text-hint-on-primary: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-disabled-on-primary: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-icon-on-primary: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-primary-on-accent: #fff;
+  --mdc-theme-text-secondary-on-accent: hsla(0, 0%, 100%, .7);
+  --mdc-theme-text-hint-on-accent: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-disabled-on-accent: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-icon-on-accent: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-primary-on-background: rgba(0, 0, 0, .87);
+  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, .54);
+  --mdc-theme-text-hint-on-background: rgba(0, 0, 0, .38);
+  --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, .38);
+  --mdc-theme-text-icon-on-background: rgba(0, 0, 0, .38);
+  --mdc-theme-text-primary-on-light: rgba(0, 0, 0, .87);
+  --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, .54);
+  --mdc-theme-text-hint-on-light: rgba(0, 0, 0, .38);
+  --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, .38);
+  --mdc-theme-text-icon-on-light: rgba(0, 0, 0, .38);
+  --mdc-theme-text-primary-on-dark: #fff;
+  --mdc-theme-text-secondary-on-dark: hsla(0, 0%, 100%, .7);
+  --mdc-theme-text-hint-on-dark: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-disabled-on-dark: hsla(0, 0%, 100%, .5);
+  --mdc-theme-text-icon-on-dark: hsla(0, 0%, 100%, .5)
+}
+
 //add space between categories
 .topic-list.categories {
     border-spacing: 0 1em;
